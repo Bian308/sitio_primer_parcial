@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;0,800;1,200;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767px){
+main{min-width: 100%;}
+
+
+#boxheader{
+  margin-left: 30%;
+  margin-right: auto;
+}
+#boxuno{
+    min-width: 100%;
+    height: 520px;
+    background-color:#f67280;
+    padding-left: 3%;
+    padding-top: 1%;
+  }
+  #articlevideo{
+  width: 90%;
+  padding: 1% 1% 1% 0%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2px;
+
+ }
+ 
+ iframe{ width: 98%; height: 300px; }
+
+ #articlehabilidades{
+  margin-top: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 1% 4% 1% 1%;
+ }
+
+#boxdos{clear: both;
+min-width: 100%;}
+#boxtres{clear: both;
+min-width: 100%;}
+#articlegaleria{
+  padding-left: 34px;
+  margin-top: 20px;
+  width: 100%;
+  display: none;
+}
+#articledatos{
+  padding-left: auto;
+  padding-right: auto;
+  text-align: center;
+}
+
+#imagenunogaleria{width: 240px; height: 143px;}
+#imagendosgaleria{width: 240px; height: 143px;}
+.imghabilidades{width: 95%; height: auto;
+margin-bottom: 10%;}
+
+
+ }
+
+ /*Medium  (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+ main{width: 100%;
+}
+ #boxuno{
+  min-width: 50%;
+float: left;}
+ #boxdos{min-width: 50%;
+float: right;}
+ #boxtres{ width: 28%; }
+ #articledatos{height:320px;
+               padding-right: 10%;}
+ .imghabilidades{width: 235px; height: 130px;}
+ #boxa{ padding-left: 14%;
+        padding-top: 3%;}
+ #boxc{ padding-left: 12%;}
+ #articlevideo{padding-top: 16px;
+  margin-top: 15px;}
+ .titulos{font-size: x-large;}
+ p{font-size: 13px;}
+ #boxtres{display: none;}
+ #imagenunogaleria{width: 220px; height: 123px;}
+ #imagendosgaleria{display: none;}
+  iframe{width: 255px;
+  height: 160px;}
+
+}
+
+/*Large  (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px){
+ 
+ #boxa{ padding-left: 16%;}
+ #boxc{ padding-left: 10%;}
+ #articlevideo {padding-top: 30px;}
+ iframe{margin-top: 15px;}
+ #imagendosgaleria {display: none;}
+
+}
+
+
+/* X-Large  (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399px) {
+ #boxuno{padding-top: 0%;}
+ #articledatos{padding-right:9%;}
+ #articlevideo{padding-top: 18px;}
+ #boxa{padding-left: 19%;}
+ #boxc{padding-left: 13%;}
+ #imagenunogaleria{
+  width: 180px;
+  height: 100px;
+ }
+  #imagendosgaleria{
+  width: 180px;
+  height: 100px;
+ }
+ iframe{width: 330px;
+  height: 180px;
+margin-top: 10px;}
+}
+
+
+*{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box; 
+}
+
+body{
+	background-image: url(../img/fondobody.jpg);
+	background-size: cover;
+}
+
+main{
+	width: 90%;
+  height: 620px;
+	background-color:#FEDAE2;
+	margin-left: auto;
+	margin-right: auto;
+    max-width: 1220px;
+}
+
+header{
+
+	width:100%;
+	height:100px;
+	background: rgb(111,16,75);
+background: linear-gradient(90deg, rgba(111,16,75,1) 0%, rgba(140,25,96,1) 10%, rgba(196,21,131,1) 37%, rgba(252,96,194,1) 51%, rgba(196,21,131,1) 66%);
+	}
+
+     #boxheader{
+    width: 20%;
+   	height: 470px;
+   	padding-left: 3%;
+   	padding-top: 1%;
+   	
+     }
+
+section{
+	width:100%;
+	height: 450px;
+	background-color:#FEDAE2;
+}
+
+   #boxuno{
+   	width: 36%;
+   	height: 520px;
+   	background-color:#FEDAE2;
+   	float:left;
+   	padding-left: 3%;
+   	padding-top: 1%;
+   }
+
+
+  #articledatos{
+    width: 95%;
+    height: 290px;
+    background-color:#FEDAE2;
+  }
+
+  #articlevideo{
+   
+  position: relative;
+  padding-bottom: 56.25%; /* 16/9 ratio */
+  padding-top: 1px; /* IE6 workaround*/
+  height: 0;
+  overflow: hidden;
+}
+
+   .video-responsive iframe,
+   .video-responsive object,
+   .video-responsive embed {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   }
+
+   #boxdos{
+   	width: 38%;
+   	height: 520px;
+   	background-color:#FEDAE2;
+   	float:right;
+   	padding-left: 2%;
+   	padding-top: 1%;
+
+   }
+
+   #articlehabilidades{
+    width: 90%;
+    height: 320px;
+    background-color:#FEDAE2;
+   }
+
+   #articlegaleria{
+    width: 95%;
+    height: 180px;
+    padding-top: 20px;
+    background-color:#FEDAE2;
+
+   }
+
+   #imagenunogaleria{}
+
+   #imagendosgaleria{}
+
+    #boxtres{
+   	width: 26%;
+   	height: 520px;
+   	padding-left: 3%;
+   	float:right;
+   	background-image: url(../img/diamanterosa.png), url(../img/flores.png), url(../img/flor_b.png);
+   	background-repeat: no-repeat;
+   	background-position: center, top left,  bottom right;
+   	background-color:#FEDAE2; 
+
+   }
+
+
+footer{
+	width: 100%;
+	height:70px;
+	clear:both;
+	background: rgb(111,16,75);
+background: linear-gradient(90deg, rgba(111,16,75,1) 0%, rgba(140,25,96,1) 10%, rgba(196,21,131,1) 37%, rgba(252,96,194,1) 51%, rgba(196,21,131,1) 66%);
+}
+
+#boxa{
+	width: 33%;
+	height: 70px;
+	float:right;
+	padding-left: 20%;
+	padding-top: 2%;
+}
+
+#boxb{
+    width: 33%;
+	height: 70px;
+    float:left;
+    padding-left: 3%;
+    padding-top: 1.2%;
+}
+
+#boxc{
+  width: 34%;
+	height: 70px;
+	float:left;
+	padding-left: 14%;
+	padding-top: 0.8%;
+}
+
+
+h1{
+	color: #930062;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+
+}
+
+h3{
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #ecf0f1;
+	display: inline;
+	}
+
+p{
+  font-family: 'Poppins', sans-serif;
+  text-align: left-justify;
+  font-size: small;
+}
+
+.titulos{
+	color:#930062;
+	font-family: 'Poppins', sans-serif;
+	font-size: xx-large;
+	font-weight: bold;
+	text-shadow: 4px 12px 15px #F4A2BD
+}
+
